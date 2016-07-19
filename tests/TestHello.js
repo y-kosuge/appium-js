@@ -7,7 +7,8 @@ var ios81 = {
   platformName: 'iOS',
   platformVersion: '9.2',
   deviceName: 'iPhone 5s',
-  app: 'platforms/ios/build/emulator/HelloCordova.app'
+  app: 'platforms/ios/build/emulator/HelloCordova.app',
+  autoWebview: true
 };
 
 
@@ -43,4 +44,5 @@ describe("ios webview", function () {
   });
 
 });
+
 
