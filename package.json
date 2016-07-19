@@ -1,0 +1,29 @@
+{
+  "name": "AppiumJS",
+  "version": "1.0.0",
+  "description": "```sh npm init -y npm install -g mocha npm install ```",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-kosuge/appium-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/y-kosuge/appium-js/issues"
+  },
+  "homepage": "https://github.com/y-kosuge/appium-js#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "colors": "^1.1.2",
+    "wd": "^0.4.0"
+  }
+}
